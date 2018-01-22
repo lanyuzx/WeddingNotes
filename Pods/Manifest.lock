@@ -2,24 +2,21 @@ PODS:
   - Alamofire (4.6.0)
   - AlamofireImage (3.3.0):
     - Alamofire (~> 4.5)
-  - CryptoSwift (0.8.1)
-  - IQKeyboardManagerSwift (4.0.6)
+  - IQKeyboardManagerSwift (5.0.7)
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
-  - AlamofireImage (~> 3.0)
-  - CryptoSwift
-  - IQKeyboardManagerSwift (= 4.0.6)
+  - Alamofire
+  - AlamofireImage
+  - IQKeyboardManagerSwift
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
-  CryptoSwift: 4b07d5b508c1eb67bfa314a727b705f8048a85de
-  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: f448442050c2e765ac3f9b5f02bf3ab19bdfb9cc
+PODFILE CHECKSUM: 98f4f3e971d7e55cf6eea3b4217c8898cee4bd54
 
 COCOAPODS: 1.4.0

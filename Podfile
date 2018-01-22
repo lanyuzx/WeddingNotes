@@ -6,13 +6,13 @@ target '婚礼纪' do
   use_frameworks!
 
 # Alamofire 网络库
-pod 'Alamofire', '~> 4.0'
+pod 'Alamofire'
 # swift解析json库
 pod 'SwiftyJSON'
-pod 'CryptoSwift'
 # 网络加载图片预处理工具
-pod 'AlamofireImage', '~> 3.0'
- pod 'IQKeyboardManagerSwift', '4.0.6'
+pod 'AlamofireImage'
+#键盘管理类
+pod 'IQKeyboardManagerSwift'
 
 
 end
