@@ -20,7 +20,12 @@ class LLDiscoverViewController: LLBaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func setupUI() {
+        title = "发现"
+    }
+    override func setupData() {
+        
+    }
 
     /*
     // MARK: - Navigation

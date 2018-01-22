@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - CryptoSwift (0.8.1)
+  - IQKeyboardManagerSwift (4.0.6)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.0)
+  - CryptoSwift
+  - IQKeyboardManagerSwift (= 4.0.6)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  CryptoSwift: 4b07d5b508c1eb67bfa314a727b705f8048a85de
+  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: f448442050c2e765ac3f9b5f02bf3ab19bdfb9cc
+
+COCOAPODS: 1.4.0

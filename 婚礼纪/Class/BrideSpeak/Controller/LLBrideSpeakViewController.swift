@@ -20,7 +20,12 @@ class LLBrideSpeakViewController: LLBaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func setupUI() {
+        title = "新娘说"
+    }
+    override func setupData() {
+        
+    }
 
     /*
     // MARK: - Navigation

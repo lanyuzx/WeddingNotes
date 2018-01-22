@@ -22,7 +22,7 @@ class LLHomeViewController: LLBaseViewController {
     }
     
     override func setupUI() {
-        
+        title = "首页"
     }
     override func setupData() {
         

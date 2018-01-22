@@ -20,7 +20,12 @@ class LLShoppingViewController: LLBaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func setupUI() {
+        title = "婚礼购"
+    }
+    override func setupData() {
+        
+    }
 
     /*
     // MARK: - Navigation

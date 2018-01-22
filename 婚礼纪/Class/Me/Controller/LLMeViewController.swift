@@ -20,7 +20,12 @@ class LLMeViewController: LLBaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func setupUI() {
+        title = "我们"
+    }
+    override func setupData() {
+        
+    }
 
     /*
     // MARK: - Navigation

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D8BC784183A34314E3CB35 /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BBB640AB09CE7821576C65 /* Pods____.framework */; };
 		A0856CAE201689380003EB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0856CAD201689380003EB73 /* AppDelegate.swift */; };
 		A0856CB0201689380003EB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0856CAF201689380003EB73 /* ViewController.swift */; };
 		A0856CB5201689380003EB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0856CB4201689380003EB73 /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095EA7C58D49DA87A45EDBC7 /* Pods-婚礼纪.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-婚礼纪.debug.xcconfig"; path = "Pods/Target Support Files/Pods-婚礼纪/Pods-婚礼纪.debug.xcconfig"; sourceTree = "<group>"; };
+		78BBB640AB09CE7821576C65 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0856CAA201689370003EB73 /* 婚礼纪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "婚礼纪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0856CAD201689380003EB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0856CAF201689380003EB73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,10 +51,10 @@
 		A0856CB7201689380003EB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0856CB9201689380003EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0856CBE201689380003EB73 /* 婚礼纪Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "婚礼纪Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0856CC2201689380003EB73 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		A0856CC2201689380003EB73 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ___Tests.swift; sourceTree = "<group>"; };
 		A0856CC4201689380003EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0856CC9201689380003EB73 /* 婚礼纪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "婚礼纪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0856CCD201689380003EB73 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		A0856CCD201689380003EB73 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ___UITests.swift; sourceTree = "<group>"; };
 		A0856CCF201689380003EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0856CDB20168C070003EB73 /* LLNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLNavViewController.swift; sourceTree = "<group>"; };
 		A0856CDD20168C180003EB73 /* LLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLBaseViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		A0C49F1620161F4300F821B9 /* LLBrideSpeakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLBrideSpeakViewController.swift; sourceTree = "<group>"; };
 		A0C49F1820161F5300F821B9 /* LLShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLShoppingViewController.swift; sourceTree = "<group>"; };
 		A0C49F1A20161F5D00F821B9 /* LLMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMeViewController.swift; sourceTree = "<group>"; };
+		C44F46683D65FB3A55E06632 /* Pods-婚礼纪.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-婚礼纪.release.xcconfig"; path = "Pods/Target Support Files/Pods-婚礼纪/Pods-婚礼纪.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D8BC784183A34314E3CB35 /* Pods____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FFF438F0C9F4902106261C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BBB640AB09CE7821576C65 /* Pods____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0856CA1201689370003EB73 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +108,8 @@
 				A0856CC1201689380003EB73 /* 婚礼纪Tests */,
 				A0856CCC201689380003EB73 /* 婚礼纪UITests */,
 				A0856CAB201689370003EB73 /* Products */,
+				B362991C2ADB738B3E4EDB9B /* Pods */,
+				2FFF438F0C9F4902106261C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -354,6 +369,15 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		B362991C2ADB738B3E4EDB9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				095EA7C58D49DA87A45EDBC7 /* Pods-婚礼纪.debug.xcconfig */,
+				C44F46683D65FB3A55E06632 /* Pods-婚礼纪.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,9 +385,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0856CD2201689380003EB73 /* Build configuration list for PBXNativeTarget "婚礼纪" */;
 			buildPhases = (
+				056879B4287AFB7D9D565560 /* [CP] Check Pods Manifest.lock */,
 				A0856CA6201689370003EB73 /* Sources */,
 				A0856CA7201689370003EB73 /* Frameworks */,
 				A0856CA8201689370003EB73 /* Resources */,
+				64DEA5C44FDD602B553D0DFE /* [CP] Embed Pods Frameworks */,
+				8D73ABBB7BDCC001CE46D7E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -481,6 +508,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056879B4287AFB7D9D565560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-婚礼纪-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64DEA5C44FDD602B553D0DFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-婚礼纪/Pods-婚礼纪-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-婚礼纪/Pods-婚礼纪-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D73ABBB7BDCC001CE46D7E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-婚礼纪/Pods-婚礼纪-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0856CA6201689370003EB73 /* Sources */ = {
@@ -652,6 +741,7 @@
 		};
 		A0856CD3201689380003EB73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095EA7C58D49DA87A45EDBC7 /* Pods-婚礼纪.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,6 +757,7 @@
 		};
 		A0856CD4201689380003EB73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44F46683D65FB3A55E06632 /* Pods-婚礼纪.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -18,7 +18,7 @@ class LLBaseViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        view.backgroundColor = UIColor.white
         if #available(iOS 11.0, *) {
             UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
             UITableView.appearance().contentInsetAdjustmentBehavior = .never
