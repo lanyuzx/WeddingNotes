@@ -32,8 +32,6 @@ class LLTabBarViewController: UITabBarController {
         addChildViewController(shoppingVc)
         let meVc = LLNavViewController(rootViewController: LLMeViewController())
         addChildViewController(meVc)
-        
-        
     }
 
     /*
