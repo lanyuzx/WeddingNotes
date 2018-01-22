@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		45D8BC784183A34314E3CB35 /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BBB640AB09CE7821576C65 /* Pods____.framework */; };
 		A0856CAE201689380003EB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0856CAD201689380003EB73 /* AppDelegate.swift */; };
-		A0856CB0201689380003EB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0856CAF201689380003EB73 /* ViewController.swift */; };
 		A0856CB5201689380003EB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0856CB4201689380003EB73 /* Assets.xcassets */; };
 		A0856CB8201689380003EB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0856CB6201689380003EB73 /* LaunchScreen.storyboard */; };
 		A0856CC3201689380003EB73 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0856CC2201689380003EB73 /* ___Tests.swift */; };
@@ -43,18 +42,17 @@
 
 /* Begin PBXFileReference section */
 		095EA7C58D49DA87A45EDBC7 /* Pods-婚礼纪.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-婚礼纪.debug.xcconfig"; path = "Pods/Target Support Files/Pods-婚礼纪/Pods-婚礼纪.debug.xcconfig"; sourceTree = "<group>"; };
-		78BBB640AB09CE7821576C65 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BBB640AB09CE7821576C65 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0856CAA201689370003EB73 /* 婚礼纪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "婚礼纪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0856CAD201689380003EB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0856CAF201689380003EB73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0856CB4201689380003EB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0856CB7201689380003EB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0856CB9201689380003EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0856CBE201689380003EB73 /* 婚礼纪Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "婚礼纪Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0856CC2201689380003EB73 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ___Tests.swift; sourceTree = "<group>"; };
+		A0856CC2201689380003EB73 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
 		A0856CC4201689380003EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0856CC9201689380003EB73 /* 婚礼纪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "婚礼纪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0856CCD201689380003EB73 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ___UITests.swift; sourceTree = "<group>"; };
+		A0856CCD201689380003EB73 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		A0856CCF201689380003EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0856CDB20168C070003EB73 /* LLNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLNavViewController.swift; sourceTree = "<group>"; };
 		A0856CDD20168C180003EB73 /* LLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLBaseViewController.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				A0856CDD20168C180003EB73 /* LLBaseViewController.swift */,
 				A0856CDF20168C2E0003EB73 /* LLTabBarViewController.swift */,
 				A0856CE120168C2E0003EB73 /* Class */,
-				A0856CAF201689380003EB73 /* ViewController.swift */,
 				A0856CB4201689380003EB73 /* Assets.xcassets */,
 				A0856CB6201689380003EB73 /* LaunchScreen.storyboard */,
 				A0856CB9201689380003EB73 /* Info.plist */,
@@ -576,7 +573,6 @@
 			files = (
 				A0C49F1720161F4300F821B9 /* LLBrideSpeakViewController.swift in Sources */,
 				A0C49F1920161F5300F821B9 /* LLShoppingViewController.swift in Sources */,
-				A0856CB0201689380003EB73 /* ViewController.swift in Sources */,
 				A0856CAE201689380003EB73 /* AppDelegate.swift in Sources */,
 				A0856CDC20168C070003EB73 /* LLNavViewController.swift in Sources */,
 				A0C49F1520161F2C00F821B9 /* LLDiscoverViewController.swift in Sources */,
